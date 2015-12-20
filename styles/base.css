@@ -1,0 +1,102 @@
+@import url('http://necolas.github.io/normalize.css/3.0.2/normalize.css');
+body {
+  font-family: 'Lato', sans-serif;
+  line-height: 1.5;
+  font-size: 100%;
+  color: #313131;
+}
+
+/*TEXT STYLES
+=======================================*/
+p {margin-bottom: 1.3em;}
+
+h1, h2, h3, h4 {
+  margin: 1.414em 0 0.5em;
+  font-weight: inherit;
+  line-height: 1.2;
+}
+
+h1 {
+  margin-top: 30px;
+  font-size: 2em;
+}
+
+h2 {font-size: 1.5em;}
+
+h3 {font-size: 1.3em;}
+
+h4 {font-size: 1.2em;}
+
+small, .font_small {font-size: 0.833em;}
+main {
+  margin: auto;
+  width: 90%;
+}
+
+address {
+  display: inline-block;
+}
+
+hr {
+  margin: 1em;
+  width: 80%;
+  border-color: #fff;
+}
+
+a, a:link, a:active {
+  text-decoration: none;
+  color: #6AB47B;
+}
+
+a:hover, a:focus {
+  color:  #6AB47B;
+}
+
+a:visited {
+}
+
+label {
+  font-size: 3em;
+}
+
+input {
+  width: 100%;
+  margin: .5em 0;
+  border: 1px solid #ccc;
+  border-width: 0 0 1px 0;
+  border-radius: 0;
+}
+
+input[type="checkbox"] {
+  width: .28em;
+  height: .28em;
+  font-size: 3em;
+}
+
+textarea {
+  width: 100%;
+  margin: .5em 0;
+  font-size: 2em;
+  border: 1px solid #ccc;
+  border-radius: 0;
+}
+
+input:invalid, textarea:invalid {
+  border-color: #AE3F3C;
+}
+
+input:valid, textarea:valid {
+  border-color: #89CB8E;
+}
+
+footer {
+  margin-top: 3em;
+}
+
+/*set max-width to 50% so images aren't too big*/
+img{
+
+	max-width: 50%;
+	padding: 20px;
+	border: 1px solid rgba(30,30,30,0.1);
+}

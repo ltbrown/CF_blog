@@ -1,0 +1,175 @@
+* {
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.site-header {
+ /* background-color: #2F8935;*/
+  background-color: #6AB47B;
+  color: #FFF;
+  /*padding-top: 20px;*/
+}
+
+.heading-group-h1 {
+  float: left;
+  padding: 0 0 .2em 1.5em;
+}
+
+.heading-group-h1 h2{
+  font-size: 1em;
+  margin-top: 0;
+  margin-bottom: 23px;
+}
+
+.site-title {
+  font-size: 2.488em;
+  margin-bottom: 0;
+}
+
+#filters {
+  padding: 0;
+  list-style: none;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#filters select {
+  width: 20em;
+  margin: .2em 0;
+}
+
+.tab-content {
+  display: none;
+}
+
+.template {
+  display: none;
+}
+
+.draft {
+  display: none;
+}
+
+.edit-btn {
+  display: none;
+}
+
+.byline {
+  color: #777;
+}
+
+.byline a {
+  font-weight: bold;
+}
+
+.pull-right {
+	float: right;
+	margin: 20px 0 20px 20px;
+}
+
+.pull-left {
+	float: left;
+	margin: 20px 20px 20px 0;
+}
+
+.icon-menu {
+  font-size: 2em;
+  float: right;
+  margin-top: 5px;
+  margin-right: 10px;
+}
+
+.main-nav {
+  padding: .01em;
+}
+
+.main-nav:hover ul {
+  display: block;
+}
+
+.main-nav ul {
+  display: none;
+  padding: 0;
+  /*margin: 5px 0;*/
+  margin:0;
+  list-style: none;
+  clear: both;
+
+}
+
+.main-nav li {
+  width: 100%;
+  margin-right: .4em;
+  font-size: 1.1em;
+  padding: 1em .2em;
+  border-bottom: 1px solid rgba(255,255,255, .5);
+	padding-left: 20px;
+}
+
+.main-nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+footer {
+  font-size: 0.75em;
+  /*text-align: center;*/
+  clear: both;
+  padding-top: 50px;
+  color: #ccc;
+  max-width: 1010px;
+  margin: 0 auto;
+  padding: 0 20px 20px;
+}
+
+.top {
+	text-align: center;
+	margin-top: 20px;
+}
+
+article {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 1em;
+}
+
+#article-export label {
+  font-size: .8em;
+  font-style: italic;
+  color: #ccc;
+}
+
+@media only screen and (min-width: 640px) {
+
+	body{
+  	background: url('../img/bg-11.jpg') repeat;
+  }
+
+  .icon-menu {
+    display: none;
+  }
+
+  .heading-group-h1 {
+    padding: .1em .1em .1em 3em;
+    float: none;
+  }
+
+  .main-nav {
+    /*background-color: #136819;*/
+    background-color: #599a68;
+    padding: .2em .2em .2em 2.5em;
+  }
+
+  .main-nav ul {
+    display: block;
+  }
+
+  .main-nav ul li {
+    display: inline;
+    border-bottom: none;
+    padding-left: 5px;
+  }
+
+  .main-nav ul li:hover a {
+    color: #32673f;
+  }
+
+}
